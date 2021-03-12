@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/To"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"/>
+
+
+    <EditText
+        android:id="@+id/Subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/To"
+        android:layout_margin="20dp"/>
+
+
+    <EditText
+        android:id="@+id/Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Subject"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Mail"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Message"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
