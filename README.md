@@ -13,7 +13,7 @@ Following things are required beforehand :-
 - Refresh Token
 
 # Working
-In this repo Async class `SendMailNew` is responsible for everything related to Gmail API. Firstly new Google Credentials are made with `authorize()`. Then after a service(Gmail) is made with `createGmail()`. And then MimeMessage(Mail) is created with createEmail() and encodes with createMessageWithEmail().
+In this repo Async class `SendMailNew` is responsible for everything related to Gmail API. Firstly new Google Credentials are made with `authorize()`. Then after a service(Gmail) is made with `createGmail()`. And then MimeMessage(Mail) is created with `createEmail()` and encodes with `createMessageWithEmail()`.
 
 # Additional Information
 You can find help for Client ID, Client Secret, Access Token & Refresh Token from [here](https://github.com/PatelVatsalB21/GoogleAPITokens).
